@@ -252,17 +252,19 @@ El sistema responde mostrando y reproduciendo distintos elementos:
 
 ## 8. Bitácora breve del proceso
 
-Primero definímos trabajar con la corriente Frutiger Metro debido a su relación con sistemas digitales, interfaces y gráficos vectoriales de los años 2000.
+Se definieron variables globales para controlar el estado de la experiencia, la posición del símbolo, el cambio de paletas de color, la reproducción de sonidos y el conteo de movimientos y clics. Esta decisión permitió acceder y modificar estos valores desde distintas funciones sin repetir código.
 
-El primer paso fue construir los círculos concéntricos, ya que son uno de los elementos visuales más reconocibles de esta estética. Luego se utilizó un bucle para transformar un solo círculo en un sistema repetitivo.
+Se creó un lienzo de 800 × 700 píxeles para establecer el espacio de trabajo de la experiencia. Se eligió un formato horizontal que permitiera mostrar el escenario completo y el recorrido del símbolo.
 
-Después se incorporó el movimiento del mouse utilizando `map()`, permitiendo que la cantidad de círculos cambie en tiempo real según la interacción del usuario.
+Se diseñó una pantalla de bienvenida con edificios y un título principal. El objetivo fue presentar la temática antes de comenzar la interacción y solicitar al usuario que haga clic para iniciar.
 
-Más adelante se agregó una silueta de ciudad creada con figuras geométricas simples, reforzando la relación con la estética urbana y digital del referente.
+Se cargaron todos los archivos de audio antes de ejecutar el programa para evitar errores o retrasos durante la experiencia.
 
-Luego se incorporaron símbolos gráficos como estrellas y flores mediante texto, haciendo referencia a los elementos decorativos utilizados en esta corriente visual.
+Se implementaron dos paletas de color intercambiables mediante una tecla. También se añadieron instrucciones en pantalla para explicar los controles disponibles al usuario.
 
-Finalmente se agregaron cambios de paleta mediante teclado para generar diferentes versiones de la composición.
+Se programaron las teclas WASD para controlar el movimiento del símbolo. Cada desplazamiento incrementa un contador de movimientos. También se incorporó la tecla "1" para alternar entre las dos paletas de colores.
+
+Finalmente, se estableció como condición de término que el símbolo alcance el borde derecho del lienzo, activando la pantalla final y bloqueando nuevas interacciones.
 
 El resultado final es un sistema visual interactivo que transforma una estética gráfica estática en una composición generativa controlada por reglas, repetición e interacción.
 

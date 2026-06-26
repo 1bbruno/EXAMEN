@@ -224,7 +224,7 @@ El sistema responde mostrando y reproduciendo distintos elementos:
 
 ## 5. Diagrama de flujo
 
-![Diagrama de flujo](./imagenes/diagrama-flujo.png)
+![Diagrama de flujo](https://github.com/1bbruno/EXAMEN/blob/b20729570e976f60551f11931b1ea1db2e045912/imagenesconceptuales/Diagram%20Basics%20(Community)%20(1)%20(1).pdf)
 
 ---
 

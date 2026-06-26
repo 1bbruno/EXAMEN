@@ -240,7 +240,7 @@ El sistema responde mostrando y reproduciendo distintos elementos:
 
 ### Proceso
 
-![Proceso](./imagenes/proceso.gif)
+![Proceso](proceso.gif)
 
 ---
 

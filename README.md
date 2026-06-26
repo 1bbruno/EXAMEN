@@ -236,7 +236,7 @@ El sistema responde mostrando y reproduciendo distintos elementos:
 
 ![Referente Frutiger Metro](https://github.com/1bbruno/EXAMEN/blob/d4b45c9f8fabf05cdc7b71420a35733d6c30a94b/imagenesconceptuales/431bf15cfa6bbab3f2186c1a518c2da1.jpg)
 
-![Referente Frutiger Metro](./imagenes/referente3.jpg)
+![Referente Frutiger Metro](https://github.com/1bbruno/EXAMEN/blob/c2a8f0ee8a5eb8d2feaba6a62888d25f9a7f3141/imagenesconceptuales/d53fa06872a18e4a35fdf23a780eae0d.jpg)
 
 ### Proceso
 
